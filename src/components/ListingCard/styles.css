@@ -1,6 +1,6 @@
 .card-listing {
   width: 100%;
-  height: 408px;
+  height: 100%;
   background-color: var(--color-bg-tertiary);
   border-radius: 5px;
   padding: 20px;
