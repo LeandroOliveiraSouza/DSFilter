@@ -1,5 +1,15 @@
+import FilterCard from "./components/FilterCard";
+import Header from "./components/Header";
+import ListScreenBody from "./components/ListScreenBody";
+import ListingCard from "./components/ListingCard";
+
 export default function App() {
   return (
-    <h1>Hello World</h1>
-  )
+    <>
+      <Header />
+      <ListScreenBody />
+      <FilterCard />
+      <ListingCard />
+    </>
+  );
 }
