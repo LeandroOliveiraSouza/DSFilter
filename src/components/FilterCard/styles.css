@@ -1,0 +1,45 @@
+.card-filter {
+  width: 100%;
+  height: 200px;
+  background-color: var(--color-bg-tertiary);
+  border-radius: 5px;
+}
+
+.card-filter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-filter-form input {
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid var(--color-border-secondary);
+  border-radius: 5px;
+}
+
+.card-filter-form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-font-placeholder);
+}
+
+.card-filter-form input:focus {
+  outline: none;
+}
+
+.form-buttom {
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-primary);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
