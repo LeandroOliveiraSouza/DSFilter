@@ -21,8 +21,8 @@ export default function FilterCard({ onFilterPrice }: Props) {
 
   function handleFormClick(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const minPrice = formData.minimumPrice !== undefined ? formData.minimumPrice : 0;
-    const maxPrice = formData.maximumPrice !== undefined ? formData.maximumPrice : Number.MAX_VALUE;
+    const minPrice = parseFloat(formData.minimumPrice?.toString() || '0');
+    const maxPrice = parseFloat(formData.maximumPrice?.toString() || Number.MAX_VALUE.toString());
     onFilterPrice(minPrice, maxPrice);
   }
 
